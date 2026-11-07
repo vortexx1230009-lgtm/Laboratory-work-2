@@ -34,4 +34,4 @@ while True:
     elif choice == "3":
         break
     else:
-        print("Yanlış seçim!")
+        print("Yanlış seçim, yeniden cehd edin")
