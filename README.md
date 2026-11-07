@@ -10,22 +10,22 @@ Qovluq adı: lab8_Ismat_Gurbanov
 
 Kompüterinizdə lab8_Ismat_Gurbanov qovluğu yaradın və bütün faylları həmin qovluğun daxilində saxlayın:
 
-lab8_Ismat_Gurbanov/
-├── utils.py
-├── lab8_main.py
-├── task8_fixed.py
-├── bonus_journal.py
-├── report_en.docx (və ya report.txt)
-└── README.md
+#lab8_Ismat_Gurbanov/
+utils.py
+lab8_main.py
+task8_fixed.py
+bonus_journal.py
+report_en.docx (və ya report.txt)
+README.md
 
 
-2. Faylların Tam Kodları
+#2. Faylların Tam Kodları
 
 📄 utils.py
 
 (Tapşırıq 2, 3, 5 və 6-dakı köməkçi funksiyalar modulu)
 
-"""Laboratoriya 8 üçün köməkçi funksiyalar modulu."""
+@aboratoriya 8 üçün köməkçi funksiyalar modulu.
 
 
 def add_vat(price, vat_percent=18):
@@ -70,11 +70,11 @@ def make_course(code, **details):
     return course
 
 
-📄 lab8_main.py
+#📄 lab8_main.py
 
 (Tapşırıq 1, 4, 5, 6 və 7-nin icra kodu)
 
-"""Laboratoriya 8 əsas icra faylı."""
+#Laboratoriya 8 əsas icra faylı.
 
 import utils
 from utils import average
@@ -140,11 +140,11 @@ print(make_user("Nigar", "Hasanova"))
 print(u.with_bonus([50, 95], 10))
 
 
-📄 task8_fixed.py
+#📄 task8_fixed.py
 
 (Tapşırıq 8: 4 xətası düzəldilmiş kod)
 
-"""Düzəldilmiş Tapşırıq 8 kodu."""
+#Düzəldilmiş Tapşırıq 8 kodu.
 
 
 def calculate_total(prices, discount=0):
@@ -164,11 +164,11 @@ print("Total: " + str(order_total))
 print(describe_order("Baku", customer="Ali"))
 
 
-📄 bonus_journal.py
+#📄 bonus_journal.py
 
 (Bonus Tapşırıq: Tələbə jurnalı v2)
 
-"""Bonus: Tələbə Jurnalı v2."""
+#Bonus: Tələbə Jurnalı v2
 
 
 def make_student(name, score):
@@ -220,7 +220,7 @@ while True:
         print("Yanlış seçim!")
 
 
-3. Hesabat Mətni (Report - English A2)
+#3. Hesabat Mətni (Report - English A2)
 
 Part A: Predict first, then run (10 points)
 
